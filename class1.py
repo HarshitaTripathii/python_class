@@ -2,9 +2,10 @@
 # a=int(input("enter a no."))
 # b=int(input("enter a no."))
 # print(a+b)
-# import keyword
-# print(keyword.kwlist)
-# print(len(keyword.kwlist))
+import keyword
+print(keyword.kwlist)
+print(type(keyword.kwlist))
+print(len(keyword.kwlist))
 
 
 # p=int(input("enter your %"))
@@ -28,12 +29,12 @@
 #     n=n//10
 # print(sum)
 
-count=0
-while(count<5):
-    print(count, "is leass than 5")
-    count =count+1
-else:
-    print(count, "is not less than 5")
+# count=0
+# while(count<5):
+#     print(count, "is leass than 5")
+#     count =count+1
+# else:
+#     print(count, "is not less than 5")
 
 
 
