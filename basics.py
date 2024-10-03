@@ -40,14 +40,14 @@
 # print(greet1.endswith("@"))
 
 #MATCH CASE 
-x= int(input("enter a number"))
-match x:
-    case _ if x>=18:
-        print("ok")
-    case _ if x>=22:
-        print("extreme ok yes")
-    case _:
-        print("not eligible")
+# x= int(input("enter a number"))
+# match x:
+#     case _ if x>=18:
+#         print("ok")
+#     case _ if x>=22:
+#         print("extreme ok yes")
+#     case _:
+#         print("not eligible")
 
 
 
