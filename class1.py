@@ -2,10 +2,10 @@
 # a=int(input("enter a no."))
 # b=int(input("enter a no."))
 # print(a+b)
-import keyword
-print(keyword.kwlist)
-print(type(keyword.kwlist))
-print(len(keyword.kwlist))
+# import keyword
+# print(keyword.kwlist)
+# print(type(keyword.kwlist))
+# print(len(keyword.kwlist))
 
 
 # p=int(input("enter your %"))
@@ -35,7 +35,6 @@ print(len(keyword.kwlist))
 #     count =count+1
 # else:
 #     print(count, "is not less than 5")
-
 
 
 

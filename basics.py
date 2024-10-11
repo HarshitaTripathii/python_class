@@ -9,8 +9,10 @@
 # a1=complex(10,0)
 # b1=complex(2,4)
 # print(a1,b1, type(b1))
+
 # size :  boolean (1 byte) < char(2 bytes) < int (4 byte) < float (4 or 8 byte)
-#explicit type casting, is on the basis of more sized data type
+#implicit type casting, is on the basis of more sized data type
+
 # print(type(1+2.4))
 # poem='''helore
 # ut is ebodbej2
