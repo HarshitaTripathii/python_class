@@ -51,6 +51,25 @@
 #     case _:
 #         print("not eligible")
 
+# def greater(a,b):
+#     if(a>b):
+#         print(a, "is greater than ", b)
+#     else:
+#         print(b, "is greater than ", a)
+
+
+# def gmean(a,b):
+#     greater(a,b)
+#     return (a*b)/(a+b)
+# print(gmean(10,20))
+
+def add(a=2,b=4):
+    print(a+b)
+add(10,20)
+add()
+add(9)
+add(b=10)
+
 
 
 
