@@ -63,12 +63,40 @@
 #     return (a*b)/(a+b)
 # print(gmean(10,20))
 
-def add(a=2,b=4):
-    print(a+b)
-add(10,20)
-add()
-add(9)
-add(b=10)
+# def add(a=2,b=4):
+#     print(a+b)
+# add(10,20)
+# add()
+# add(9)
+# add(b=10)
+
+# tup1=(1,2,3,4)
+# templ=list(tup1)
+# templ.pop(2)
+# templ.append(5)
+# tup1=tuple(templ)
+# print(tup1)
+# using format string, below
+# print("Username {} just logged in".format("Harshita"))
+# # using f string, below
+# age =21
+# print(f"Age of this Username is {age} ") 
+# # to retain the variable name in the output, use double {}
+# print(f"Age of this Username is {{age}} ") 
+# price=299.64654
+# print(f"the total price of book is {price:.3f}")  
+# print(f"{5*10}")
+
+# import this
+# zen of python
+# doc string 
+def greet():
+    '''this is to greet username'''
+    print("hello")
+    print(greet.__doc__)
+greet()
+
+
 
 
 
