@@ -95,6 +95,7 @@ def greet():
     print("hello")
     print(greet.__doc__)
 greet()
+# print(greet.__doc__)
 
 
 
