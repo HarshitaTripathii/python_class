@@ -20,7 +20,7 @@
 # deijd eo3ej32 ei3ne32 ien'''
 # print(poem)
 #STRINGS
-# name="harshita is a good girl"
+name="harshita_is_a_good_girl"
 # print(name.title())
 # print(name.capitalize())
 # print(name[-1])
@@ -28,9 +28,15 @@
 # for i in name:
 #     print(i)
 # print(name[0:8])
-# print(name[:8])
-# print(name[:])
-# print(name[0:])
+print(name[:8])
+print(name[:])
+print(name[0:])
+print(name[-8:])
+str1="hello"
+print(str1)
+# del str1
+print(str1)
+print(list(enumerate(str1)))
 # print(name[-1::-1])  
 # print(name[-8::1])
 # print(name[7::-1 ])
@@ -94,8 +100,15 @@ def greet():
     '''this is to greet username'''
     print("hello")
     print(greet.__doc__)
-greet()
+# greet()
 # print(greet.__doc__)
+import sys
+p=20
+# print(hex(id(p)))
+# print(isinstance(9+1j, complex))
+# print(sys.getsizeof(p))
+# print(bool(0))
+# print(bool(1))
 
 
 
