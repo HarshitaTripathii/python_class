@@ -6,8 +6,8 @@ class trial:
     def greet(self):
         print(f"username {self.name} just Logged In")
         print(self)
-# a=trial()
-# a.greet()
+a=trial()
+a.greet()
 class check:
     a=20
     b="hello"

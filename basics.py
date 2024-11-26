@@ -28,16 +28,17 @@ name="harshita_is_a_good_girl"
 # for i in name:
 #     print(i)
 # print(name[0:8])
-print(name[:8])
-print(name[:])
-print(name[0:])
-print(name[-8:])
-str1="hello"
-print(str1)
-# del str1
-print(str1)
-print(list(enumerate(str1)))
+# print(name[:8])
+# print(name[:])
+# print(name[0:])
+# print(name[-8:])
+# str1="hello"
+# print(str1)
+# # del str1
+# print(str1)
+# print(list(enumerate(str1)))
 # print(name[-1::-1])  
+# print(name[-1::1])   
 # print(name[-8::1])
 # print(name[7::-1 ])
 # print(name, "is",len(name),"lettered word" )
@@ -110,8 +111,37 @@ p=20
 # print(bool(0))
 # print(bool(1))
 
+# print(2**1000)
+setone={1,2,3,4}
+# print(f"setone is {setone}")
+# print(setone & {4,3,7}) # intersection
+# print(f"setone is {setone}")
+# print(setone | {7}) # union
+# print(f"setone is {setone}")
+# print(setone-{1,2,3,4})  #here it will retrun set() : empty set , not {} because {} represent empty dictionary
 
+# print(True==1)
+# print(True==6)
 
+# STRING METHODS
+# name="meghna"
+# # print(name.capitalize())  
+
+# text="{name} has just logged In with id {id}"
+# print(text.format(name="harshita",id= "093"))
+# text="{} has just logged In with id {}"
+# print(text.format("harshita","093"))
+
+# name="yashi"
+# print(f"{name} has just login")
+
+# name1="{name} has just login"
+# print(name1.format(name="arya"))
+
+txt1="har216"
+print(txt1.isalnum())
+print(txt1.isnum())
+print(txt1.isalnum())
 
 
 
