@@ -80,11 +80,30 @@
 # notify("harshita", 21)
 # print(notify("harshita", 21))
 
-f=open("check.txt", 'w+')
-line=["i love java", "java is my love", "all love java"]
-f.writelines(line)
-content=f.read()
-print(content)
-f.close()
+# f=open("check.txt", 'w+')
+# line=["i love java", "java is my love", "all love java"]
+# f.writelines(line)
+# content=f.read()
+# print(content)
+# f.close()
+
+# import class1 as c
+# a1=c.add(2,4)
+# b1=c.sub(2,4)
+# print(a1,b1)
+
+from class1 import sub
+a=sub(2,1)
+print(a)
+# print(add(5,5))  #error
+
+import math
+print(math.sqrt(49.5))
+
+import time 
+print(time.ctime())
+
+def area(a,b):
+    return a*b
 
 
