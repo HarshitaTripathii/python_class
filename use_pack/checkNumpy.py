@@ -178,26 +178,31 @@ l8s=np.sort(l8)
 print(f"sorted array is {l8s}")
 print(f"original array is {l8}")
 l9=np.sort((np.array([60,-2,48,2,55])))
-print(l9)'''
+print(l9)
+'''
+# print(np.sort(np.array([True,False,True,True])))
 
-l6=np.array([10,20,4,10,44,57,10,3,23,10])
+'''l6=np.array([10,20,4,10,44,57,10,3,23,10])
 l6_=np.where(l6==10)  #returns a tuple
 print(l6)
 print(l6_[0])
-print(l6[l6_[0]])
+print(l6[l6_[0]])'''
 
-
-
-
-
-
-
+'''list4=np.arange(1,11)
+print(list4)
+evenList=np.where( list4%2==0)
+print(evenList)
+print(evenList[0])  # tuple of index
+print(list4[evenList[0]]) ''' #array of even no. at those indices
 
 
 
 import pandas as pd
 ns=pd.Series([2,4,5,61,2])
 # print(ns)
+
+
+
 
 
 
