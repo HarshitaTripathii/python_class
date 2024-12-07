@@ -49,7 +49,7 @@ np1=np.zeros(5)
 # print(type(np1[1]))
 # print(np1) # all 0s are float
 # print(np1.shape) # all 0s are float
-# print(np1.size) # all 0s are float
+# print(np1.size)  # 5
 
 #Multidimentional zeros
 # np11=np.zeros((2,10))
@@ -194,6 +194,10 @@ evenList=np.where( list4%2==0)
 print(evenList)
 print(evenList[0])  # tuple of index
 print(list4[evenList[0]]) ''' #array of even no. at those indices
+
+ #Generate an array of 10 random integers between 1 and 100
+random_array = np.random.randint(1, 101, size=10)
+print(random_array)
 
 
 
