@@ -6,7 +6,7 @@ data = {
     "Age": [25, 30, 35, 40, 45],
     "Score": [85, 90, 95, 80, 75]
 }
-df1=pd.DataFrame(data)
+# df1=pd.DataFrame(data)
 
 '''print(type(df1["Name"].tolist()))  #list
 arr=np.array(df1["Name"].tolist())
@@ -82,9 +82,11 @@ print(df1.iat[0,0])  '''
 
 # print(df.index.tolist())
 # print(df.index)
-# print(df.columns.tolist())
+print(df.columns.tolist())
 
 # print(df.describe())
+# infor=df.describe()
+# print(type(infor))
 # print(df1.describe())
 # print(df1.info())
 
@@ -128,7 +130,20 @@ If both columns (Age and Score) have all unique values, and the ascending order 
 conflicts with the descending order of Score, Pandas prioritizes the first column in the sort hierarchy.
 '''
 # by parameter (optional)
-print(df1)
+# print(df1)
+import functools
+
+record=[["Alice",	24,	85],["Bob",	22,	90],["Charlie",	23,	95]]
+df2=pd.DataFrame(record,columns=["name","age","marks"])
+print(df2)
+m=df2["marks"].tolist()
+sum=functools.reduce(lambda x,y:x+y,m)
+avg=sum/(len(m))
+print(f"the average marks is {avg}")
+des=df2.describe()
+maxm=des.at[max, "name"]
+print(f'the max marks is with {maxm}')
+
 
 
 
