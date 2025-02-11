@@ -138,10 +138,10 @@ setone={1,2,3,4}
 # name1="{name} has just login"
 # print(name1.format(name="arya"))
 
-txt1="har216"
-print(txt1.isalnum())
-print(txt1.isnum())
-print(txt1.isalnum())
+# txt1="har216"
+# print(txt1.isalnum())
+# print(txt1.isnum())
+# print(txt1.isalnum())
 
 
 

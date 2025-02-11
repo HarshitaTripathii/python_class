@@ -40,6 +40,22 @@ def add(a,b):
     return a+b
 def sub(a,b):
     return a-b
+def flower(n,t,arr):
+    i=0
+    j=n-1
+    lst=[]
+    while(i<j):
+        if(arr[i]+arr[j]==t):
+            return (i,j)
+        elif(arr[i]+arr[j]>t):
+            j=j-1
+        else:
+            i=i+1
+    return None
+        
+a=[1,1,2,3,4]
+ans=flower(5,2,a)
+print(ans)
 
 
 

@@ -13,24 +13,24 @@ Label(text="hello Harshita").pack()
 '''
 photo = PhotoImage(file="pythoned.png")
 # photo = PhotoImage(file="images.jpeg")  # error as jpeg images are not supported
-Label(image=photo).pack'''
+Label(image=photo).pack()'''
 
 # for jpeg images
 img=Image.open(r"C:\Users\91912\Desktop\TUTORIAL\python_class-6\i1.jpg")
 phtr=img.resize((300,300))
 pht=ImageTk.PhotoImage(phtr)
 
-Label(image=pht, width=200, height=200).pack(anchor="nw", side="right",fill=X)
-Label(image=pht, width=200, height=200).pack(anchor='ne', side="left",fill=X)
+Label(image=pht, width=200, height=200).pack(anchor="nw", side="right")
+Label(image=pht, width=200, height=200).pack(anchor='ne', side="left")
 
 Label(text='''A class is a user-defined blueprint or prototype from whi
       ch objects are created.  user-defined data structure, which holds its own data 
        and member functions, which can be accessed and used by creating an instance 
         that class. A class is like a blueprint for an object''', 
         cursor="hand2",takefocus=True,wraplength=700,anchor="center",
-        bg="grey", padx=30, pady=30, font=("Helvetica", 15, "bold"), borderwidth=5, relief=RIDGE).pack(fill=X)
+        bg="grey", padx=30, pady=30, font=("Helvetica", 15, "bold"), borderwidth=5, relief=RIDGE).pack()
 
-Label(text="lorem1nifn fnifn fneioc  fenfe oejfe nfenf vnifwnff fefjoA class is a user-defined blueprint or prototype from which objects are created.  user-defined data structure, which holds its own data and member functions, which can be accessed and used by creating an instance that class. A class is like a blueprint for an object 2",  wraplength=300,borderwidth=5, relief=RIDGE,bg="grey", anchor="ne").pack(fill=X)
+Label(text="lorem1nifn fnifn fneioc  fenfe oejfe nfenf vnifwnff fefjoA class is a user-defined blueprint or prototype from which objects are created.  user-defined data structure, which holds its own data and member functions, which can be accessed and used by creating an instance that class. A class is like a blueprint for an object 2",  wraplength=300,borderwidth=5, relief=RIDGE,bg="grey", anchor="ne").pack()
 # Label(image=pht, width=200, height=200, state="disabled").pack()
 
 

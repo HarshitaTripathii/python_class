@@ -133,6 +133,9 @@ conflicts with the descending order of Score, Pandas prioritizes the first colum
 # print(df1)
 import functools
 
+# This code snippet is creating a DataFrame `df2` from a list of records `record`, where each record
+# consists of a name, age, and marks. It then calculates the average marks of all the students in the
+# DataFrame, and prints out the result.
 record=[["Alice",	24,	85],["Bob",	22,	90],["Charlie",	23,	95]]
 df2=pd.DataFrame(record,columns=["name","age","marks"])
 print(df2)
